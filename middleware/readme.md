@@ -1,5 +1,5 @@
 ## Middleware
-_**Cette démonstration repose sur l'utilisation du framework Botkit. Pour configurer à bien ce middleware il nest nécessaire d'avoir récupéré certaines informations d'authentification au près des services tiers qui sont utilisé**_
+_**Cette démonstration repose sur l'utilisation du framework Botkit. Pour configurer à bien ce middleware il n’est nécessaire d'avoir récupéré certaines informations d'authentification auprès des services tiers qui sont utilisé**_
 
 ### Deploiement middleware
 1) Si ce n'est pas déjà fait cloner le dépôt du projet
@@ -16,7 +16,7 @@ cd middleware
 mpm install
 ```
 
-4) Configurer le fichier `.env` avec les valeurs d'authenficications des différents services tiers
+4) Configurer le fichier `.env` avec les valeurs d'authentifications des différents services tiers
 
 **Valeurs de connexion au schéma mySQL déployé:**
 ```bash
@@ -53,7 +53,6 @@ USE_SKYPE=true
 node server.js
 ```
 
-5) Tester le chat bot à travers Skype. Il devrait être à même de répondre à un "bonjour" et effectuer une recherche dans la base de donnée sur une question du type "Affiche moi la liste des entreprises"
-
+5) Tester le chat bot à travers Skype. Il devrait être à même de répondre à un "bonjour" et effectuer une recherche dans la base de données sur une question du type "Affiche moi la liste des entreprises"
 ---
 [Jonathan Charlet](mailto:jonathan.charlet@bluewin.ch) 4IGTPart - 2018

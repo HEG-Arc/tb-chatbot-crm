@@ -1,5 +1,7 @@
 # TB-ChatBot-CRM
-Projet de mise en place d'un chat bot fonctionnant avec la plateforme chat bot IBM en effectuant des traitements métier à travers le middleware Botkit avec entre autre des recherches dans une base SGBD mySQL
+Projet de mise en place d'un chat bot fonctionnant avec la plateforme chat bot IBM en effectuant des traitements métier à travers le middleware Botkit avec entre autre des recherches dans une base SGBD mySQL.
+
+Les informations ci-dessous vont permettre de déployer le projet mis en place.
 
 ## Infrastrcture SQL pour démonstration et tests
 _**Cette démonstration repose sur l'utilisation du SGBD MySQL. Aucune garantie n'est faite sur la compatibilité des codes SQL présentés avec d'autres SGBD**_
