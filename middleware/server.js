@@ -22,6 +22,7 @@ var fs = require('fs');
 var https = require('https');
 var app = express();
 
+// Options nécessaire pour créer un serveur https
 var sslOptions = {
   key: fs.readFileSync('ssl/key.key'),
   cert: fs.readFileSync('ssl/cert.pem'),
@@ -32,13 +33,8 @@ var sslOptions = {
 app.use(bodyParser.json({
 }));
 
+// création du serveur https
 https.createServer(sslOptions, app).listen(443);
  console.log('webhook is listening');
 
 require('./app')(app);
-
-// Listen on the specified port
-/*app.listen(port, function() {
-  console.log('Client server listening on port ' + port);
-});
-*/

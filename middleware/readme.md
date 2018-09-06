@@ -48,11 +48,12 @@ MICROSOFT_APP_PASSWORD=your_Microsoft_app_password
 USE_SKYPE=true
 ```
 
-
 4) Démarrer le serveur node
 ```bash
 node server.js
 ```
+
+5) Tester le chat bot à travers Skype. Il devrait être à même de répondre à un "bonjour" et effectuer une recherche dans la base de donnée sur une question du type "Affiche moi la liste des entreprises"
 
 ---
 [Jonathan Charlet](mailto:jonathan.charlet@bluewin.ch) 4IGTPart - 2018
