@@ -13,7 +13,7 @@ cd middleware
 
 3) Installer toutes les dépendances
 ```bash
-mpm install
+npm install
 ```
 
 4) Configurer le fichier `.env` avec les valeurs d'authentifications des différents services tiers
